@@ -1,0 +1,24 @@
+# Dependencies / build outputs
+node_modules/
+dist/
+build/
+.cache/
+
+# Local runtime / private data
+.env
+.env.*
+!.env.example
+data/
+.agent/
+.codex/
+.hermes/
+.omx/
+*.log
+__pycache__/
+*.py[cod]
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

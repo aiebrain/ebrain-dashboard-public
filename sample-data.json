@@ -1,0 +1,840 @@
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "유튜브 영상 설명란 CTA 문구 통일",
+      "owner": "이브레인",
+      "status": "진행중",
+      "priority": "높음",
+      "due": "2026-05-28",
+      "memo": "무료 자료 받기 링크를 모든 핵심 영상에 배치"
+    },
+    {
+      "id": "task-002",
+      "title": "랜딩페이지 Meta Pixel 설치 확인",
+      "owner": "Hermes",
+      "status": "대기",
+      "priority": "높음",
+      "due": "2026-05-28",
+      "memo": "PageView, Lead, ViewContent 이벤트 확인"
+    },
+    {
+      "id": "task-003",
+      "title": "무료 PDF/체크리스트 신청 폼 카피 작성",
+      "owner": "이브레인",
+      "status": "대기",
+      "priority": "중간",
+      "due": "2026-05-29",
+      "memo": "초보셀러 언어로 문제→자료→행동 흐름"
+    },
+    {
+      "id": "task-004",
+      "title": "자료신청자 맞춤타겟 업로드 기준 정리",
+      "owner": "Hermes",
+      "status": "완료",
+      "priority": "중간",
+      "due": "2026-05-27",
+      "memo": "광고 활용 동의 필요"
+    },
+    {
+      "id": "task-005",
+      "title": "AI커머스 자료 패키지 리타겟팅 소재 3종 작성",
+      "owner": "이브레인",
+      "status": "대기",
+      "priority": "높음",
+      "due": "2026-05-30",
+      "memo": "문제공감형, 증거형, 안심형"
+    },
+    {
+      "id": "task-006",
+      "title": "구매자 제외 타겟 세팅 체크",
+      "owner": "Hermes",
+      "status": "대기",
+      "priority": "중간",
+      "due": "2026-05-30",
+      "memo": "기존 구매자에게 할인성 광고 노출 방지"
+    },
+    {
+      "id": "task-007",
+      "title": "주간 KPI 리포트 템플릿 만들기",
+      "owner": "Hermes",
+      "status": "진행중",
+      "priority": "중간",
+      "due": "2026-05-31",
+      "memo": "scroll50, ATC, checkout, CPA 기준"
+    },
+    {
+      "id": "task-008",
+      "title": "카페 가입 유도 게시글 고정",
+      "owner": "이브레인",
+      "status": "대기",
+      "priority": "낮음",
+      "due": "2026-06-01",
+      "memo": "AI질문 환영 CTA 상단"
+    },
+    {
+      "id": "task-book-promo-20260601",
+      "title": "『샘플 AI 커머스 저서』 단톡방 홍보 게시",
+      "owner": "이브레인",
+      "status": "대기",
+      "priority": "높음",
+      "due": "2026-06-01",
+      "memo": "최종 문구 확인 후 샘플 커뮤니티 채팅방에 게시. 문구는 샘플 홍보문구 문서"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-001",
+      "title": "AI커머스 브레인 6월 판매 캠페인",
+      "owner": "이브레인",
+      "status": "진행중",
+      "priority": "높음",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-14",
+      "goal": "구매자료 패키지 판매 흐름을 카페·상세페이지·광고까지 한 번에 정리",
+      "successMetric": "상세페이지 검수 완료, 카페 구매 CTA 고정, 리드 전환 흐름 확인",
+      "nextAction": "PDP 최종 문구와 카페 고정글 CTA를 맞춰 검수",
+      "memo": "Cafe24 product_no=29와 네이버카페 AI커머스 브레인 연결"
+    },
+    {
+      "id": "project-002",
+      "title": "업무 대시보드 프로젝트/할일 분리 개선",
+      "owner": "Hermes",
+      "status": "검수",
+      "priority": "중간",
+      "startDate": "2026-06-01",
+      "targetDate": "2026-06-03",
+      "goal": "프로젝트는 상위 실행 단위, 할일은 실행 체크리스트로 분리",
+      "successMetric": "프로젝트 추가 시 tasks가 증가하지 않고 projects만 증가",
+      "nextAction": "브라우저에서 추가/수정/빠른처리 동작 확인",
+      "memo": "프로젝트에서 추후 후속 할일 생성 기능을 연결 예정"
+    }
+  ],
+  "lectures": [],
+  "courseItems": [
+    {
+      "id": "course-001",
+      "title": "샘플 커머스 교육 브랜드 실전 자료 패키지",
+      "audience": "이브레인",
+      "format": "VOD",
+      "status": "판매중",
+      "materialStatus": "완료",
+      "mailStatus": "발송준비",
+      "launchDate": "2026-06-01",
+      "sessionCount": "1",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "scheduleLabelColor": "강의-청록",
+      "sessionDates": "2026-06-01",
+      "assetLink": "https://example.com/product/sample",
+      "nextAction": "구매 후 실행순서 안내 보강",
+      "memo": "PDF/VOD/GPTs/가이드 묶음"
+    },
+    {
+      "id": "course-002",
+      "title": "퍼스널브랜딩 콘텐츠 상품화 강의",
+      "audience": "이브레인·외부 강사",
+      "format": "라이브",
+      "status": "기획중",
+      "materialStatus": "준비중",
+      "mailStatus": "작성필요",
+      "launchDate": "",
+      "sessionCount": "8",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "scheduleLabelColor": "강의-보라",
+      "sessionDates": "",
+      "assetLink": "",
+      "nextAction": "커리큘럼 1차 목차 정리",
+      "memo": "콘텐츠→상품화 흐름"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd-029",
+      "name": "샘플 커머스 교육 브랜드 실전 자료 패키지",
+      "price": 49000,
+      "status": "판매중",
+      "url": "https://example.com/product/sample",
+      "memo": "메인 전환 상품"
+    },
+    {
+      "id": "prd-free-001",
+      "name": "무료 AI 상세페이지 체크리스트",
+      "price": 0,
+      "status": "리드마그넷",
+      "url": "랜딩페이지 예정",
+      "memo": "유튜브 구독자 픽셀/리드 수집용"
+    },
+    {
+      "id": "prd-upsell-001",
+      "name": "AI커머스 실행 코칭",
+      "price": 0,
+      "status": "기획중",
+      "url": "미정",
+      "memo": "구매자 후속 상품 후보"
+    }
+  ],
+  "conversionMetrics": [
+    {
+      "id": "met-001",
+      "date": "2026-05-27",
+      "source": "YouTube",
+      "visitors": 430,
+      "leads": 32,
+      "atc": 14,
+      "checkout": 8,
+      "purchases": 4,
+      "spend": 0,
+      "revenue": 196000,
+      "memo": "유기 유입 기준"
+    },
+    {
+      "id": "met-002",
+      "date": "2026-05-28",
+      "source": "Meta Retargeting",
+      "visitors": 620,
+      "leads": 44,
+      "atc": 22,
+      "checkout": 13,
+      "purchases": 7,
+      "spend": 85000,
+      "revenue": 343000,
+      "memo": "랜딩 방문자 30일 타겟"
+    },
+    {
+      "id": "met-003",
+      "date": "2026-05-29",
+      "source": "Meta Lookalike",
+      "visitors": 950,
+      "leads": 51,
+      "atc": 20,
+      "checkout": 11,
+      "purchases": 5,
+      "spend": 130000,
+      "revenue": 245000,
+      "memo": "자료신청자 유사 1%"
+    },
+    {
+      "id": "met-004",
+      "date": "2026-05-30",
+      "source": "Cafe",
+      "visitors": 260,
+      "leads": 18,
+      "atc": 9,
+      "checkout": 6,
+      "purchases": 3,
+      "spend": 0,
+      "revenue": 147000,
+      "memo": "카페 고정글 유입"
+    },
+    {
+      "id": "met-005",
+      "date": "2026-05-31",
+      "source": "Meta Broad",
+      "visitors": 1100,
+      "leads": 40,
+      "atc": 16,
+      "checkout": 8,
+      "purchases": 3,
+      "spend": 160000,
+      "revenue": 147000,
+      "memo": "초보셀러 관심사 광범위"
+    }
+  ],
+  "contentItems": [
+    {
+      "id": "cnt-001",
+      "title": "유튜브 구독자에게 메타광고 가능한가?",
+      "type": "YouTube",
+      "status": "작성중",
+      "stage": "스크립트",
+      "due": "2026-05-28",
+      "memo": "직접 불가→픽셀 우회 흐름",
+      "sourceTopic": "유튜브 구독자에게 메타광고 가능한가?",
+      "platform": "유튜브",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "초안 보완",
+      "publishStatus": "작성중",
+      "publishDate": "2026-05-28"
+    },
+    {
+      "id": "cnt-002",
+      "title": "무료 체크리스트 다운로드 CTA 쇼츠",
+      "type": "Shorts",
+      "status": "대기",
+      "stage": "촬영",
+      "due": "2026-05-29",
+      "memo": "15초 문제공감형",
+      "sourceTopic": "무료 체크리스트 다운로드 CTA 쇼츠",
+      "platform": "유튜브",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 540,
+      "comments": 1,
+      "likes": 31,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "예",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "무료 체크리스트 CTA 고정댓글 작성",
+      "publishStatus": "대기",
+      "publishDate": "2026-05-29"
+    },
+    {
+      "id": "cnt-003",
+      "title": "AI 상세페이지 만들다 막히는 이유",
+      "type": "Blog",
+      "status": "대기",
+      "stage": "초안",
+      "due": "2026-05-30",
+      "memo": "초보셀러 고객언어",
+      "sourceTopic": "AI 상세페이지 만들다 막히는 이유",
+      "platform": "블로그",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 180,
+      "comments": 2,
+      "likes": 12,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "예",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "카페 FAQ와 스레드 문장으로 재활용",
+      "publishStatus": "대기",
+      "publishDate": "2026-05-30"
+    },
+    {
+      "id": "cnt-004",
+      "title": "자료 패키지 구매 전 FAQ",
+      "type": "Cafe",
+      "status": "작성중",
+      "stage": "게시글",
+      "due": "2026-05-31",
+      "memo": "구매 불안 해소",
+      "sourceTopic": "자료 패키지 구매 전 FAQ",
+      "platform": "네이버카페",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 96,
+      "comments": 4,
+      "likes": 7,
+      "replyNeeded": "예",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "구매자료 문의 답변 후 FAQ 보강",
+      "publishStatus": "작성중",
+      "publishDate": "2026-05-31"
+    },
+    {
+      "id": "cnt-005",
+      "title": "리타겟팅 광고 소재: 문제공감형",
+      "type": "Meta Ad",
+      "status": "대기",
+      "stage": "카피",
+      "due": "2026-05-30",
+      "memo": "숨은 결핍→감정",
+      "sourceTopic": "리타겟팅 광고 소재: 문제공감형",
+      "platform": "스레드/SNS",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "초안 보완",
+      "publishStatus": "대기",
+      "publishDate": "2026-05-30"
+    },
+    {
+      "id": "cnt-006",
+      "title": "리타겟팅 광고 소재: 증거형",
+      "type": "Meta Ad",
+      "status": "대기",
+      "stage": "카피",
+      "due": "2026-05-30",
+      "memo": "PDF/VOD/GPTs 구성 증거",
+      "sourceTopic": "리타겟팅 광고 소재: 증거형",
+      "platform": "스레드/SNS",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "초안 보완",
+      "publishStatus": "대기",
+      "publishDate": "2026-05-30"
+    },
+    {
+      "id": "cnt-007",
+      "title": "리타겟팅 광고 소재: 안심형",
+      "type": "Meta Ad",
+      "status": "대기",
+      "stage": "카피",
+      "due": "2026-05-30",
+      "memo": "초보도 순서대로 실행",
+      "sourceTopic": "리타겟팅 광고 소재: 안심형",
+      "platform": "스레드/SNS",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "초안 보완",
+      "publishStatus": "대기",
+      "publishDate": "2026-05-30"
+    },
+    {
+      "id": "cnt-008",
+      "title": "카페 AI질문 환영 공지",
+      "type": "Cafe",
+      "status": "완료",
+      "stage": "게시",
+      "due": "2026-05-27",
+      "memo": "구매 CTA 상단",
+      "sourceTopic": "카페 AI질문 환영 공지",
+      "platform": "네이버카페",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "반응 확인",
+      "publishStatus": "완료",
+      "publishDate": "2026-05-27"
+    },
+    {
+      "id": "cnt-book-ai-sell-20260601",
+      "title": "『샘플 AI 커머스 저서』 단톡방 홍보문구",
+      "type": "Open Kakao",
+      "status": "준비완료",
+      "stage": "게시대기",
+      "due": "2026-06-01",
+      "memo": "허민 대표님 허락하에 홍보. AI 활용 온라인 사업 포인트 중심, 기술 설명 최소화. 교보문고 링크 포함.",
+      "sourceTopic": "『샘플 AI 커머스 저서』 단톡방 홍보문구",
+      "platform": "오픈채팅",
+      "targetGoal": "AI커머스브레인 상품 홍보",
+      "targetAudience": "초보셀러",
+      "syncStatus": "수동 확인 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "아니오",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료/카페/강의 연결",
+      "nextAction": "초안 보완",
+      "publishStatus": "준비완료",
+      "publishDate": "2026-06-01"
+    },
+    {
+      "id": "cnt-blog-seo-20260603",
+      "title": "[블로그] 초보셀러가 AI 상세페이지에서 막히는 이유",
+      "type": "Blog",
+      "status": "검수",
+      "stage": "SEO 장문 글",
+      "due": "2026-06-03",
+      "memo": "검색 유입용 장문 글. 카페 FAQ와 스레드 문장으로 재활용",
+      "sourceTopic": "초보셀러가 AI 상세페이지에서 막히는 이유",
+      "platform": "블로그",
+      "targetGoal": "초보셀러 문제 해결",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 0,
+      "comments": 0,
+      "likes": 0,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "예",
+      "publishUrl": "",
+      "cta": "AI커머스브레인 구매자료 패키지로 연결",
+      "nextAction": "SEO 키워드와 CTA 위치 검수",
+      "publishStatus": "검수",
+      "publishDate": "2026-06-03"
+    },
+    {
+      "id": "cnt-thread-hook-20260603",
+      "title": "[스레드] 상세페이지가 안 팔리는 첫 문장",
+      "type": "SNS",
+      "status": "예약",
+      "stage": "짧은 글 5개",
+      "due": "2026-06-03",
+      "memo": "블로그 핵심 문장을 스레드용 훅으로 전환",
+      "sourceTopic": "초보셀러가 AI 상세페이지에서 막히는 이유",
+      "platform": "스레드/SNS",
+      "targetGoal": "초보셀러 문제 해결",
+      "targetAudience": "초보셀러",
+      "syncStatus": "연결 필요",
+      "lastSyncedAt": "",
+      "views": 320,
+      "comments": 3,
+      "likes": 24,
+      "replyNeeded": "아니오",
+      "reuseCandidate": "예",
+      "publishUrl": "",
+      "cta": "카페 댓글로 질문 유도",
+      "nextAction": "블로그 도입부와 쇼츠 훅으로 확장",
+      "publishStatus": "예약",
+      "publishDate": "2026-06-03"
+    }
+  ],
+  "communityPosts": [],
+  "customerInquiries": [
+    {
+      "id": "inq-001",
+      "name": "초보셀러 A",
+      "source": "YouTube",
+      "status": "신규",
+      "priority": "높음",
+      "question": "유튜브 구독자인데 자료는 어디서 받나요?",
+      "memo": "무료 체크리스트 링크 안내"
+    },
+    {
+      "id": "inq-002",
+      "name": "수강생 B",
+      "source": "Cafe",
+      "status": "처리중",
+      "priority": "중간",
+      "question": "메타 픽셀 설치가 꼭 필요한가요?",
+      "memo": "리타겟팅 설명 필요"
+    },
+    {
+      "id": "inq-003",
+      "name": "구매자 C",
+      "source": "Cafe24",
+      "status": "완료",
+      "priority": "높음",
+      "question": "구매 후 자료 다운로드 방법",
+      "memo": "가이드 발송"
+    },
+    {
+      "id": "inq-004",
+      "name": "셀러 D",
+      "source": "Instagram",
+      "status": "신규",
+      "priority": "중간",
+      "question": "무료 자료만 받아도 되나요?",
+      "memo": "리드마그넷 응대"
+    },
+    {
+      "id": "inq-005",
+      "name": "대표 E",
+      "source": "Email",
+      "status": "대기",
+      "priority": "낮음",
+      "question": "강의 제휴 문의",
+      "memo": "별도 분류"
+    }
+  ],
+  "emails": [
+    {
+      "id": "mail-001",
+      "subject": "무료 체크리스트 신청 완료 메일",
+      "status": "초안",
+      "segment": "신규 리드"
+    },
+    {
+      "id": "mail-002",
+      "subject": "자료 받은 후 24시간 후속 메일",
+      "status": "대기",
+      "segment": "자료 신청자"
+    },
+    {
+      "id": "mail-003",
+      "subject": "구매 전 FAQ 안내",
+      "status": "대기",
+      "segment": "상세페이지 방문자"
+    },
+    {
+      "id": "mail-004",
+      "subject": "구매자 온보딩 메일",
+      "status": "초안",
+      "segment": "구매자"
+    },
+    {
+      "id": "mail-005",
+      "subject": "미구매자 리마인드",
+      "status": "대기",
+      "segment": "결제 시작 미구매"
+    }
+  ],
+  "automationRuns": [
+    {
+      "id": "auto-001",
+      "name": "AI/ecom TOP5 Discord 발송",
+      "status": "성공",
+      "lastRun": "2026-05-27 09:00",
+      "memo": "커뮤니티 뉴스 채널"
+    },
+    {
+      "id": "auto-002",
+      "name": "Meta KPI 3일 재측정 알림",
+      "status": "대기",
+      "lastRun": "2026-05-27 10:30",
+      "memo": "scroll50/ATC/checkout/CPA"
+    },
+    {
+      "id": "auto-003",
+      "name": "문서 링크 리뷰 저장",
+      "status": "성공",
+      "lastRun": "2026-05-27 11:00",
+      "memo": "구조화 노트"
+    },
+    {
+      "id": "auto-004",
+      "name": "PDP 성과 체크",
+      "status": "주의",
+      "lastRun": "2026-05-27 12:15",
+      "memo": "CPA 기준 확인 필요"
+    },
+    {
+      "id": "auto-005",
+      "name": "구매자 안내 리마인드",
+      "status": "대기",
+      "lastRun": "2026-05-27 13:00",
+      "memo": "외부 발송 전 승인 필요"
+    }
+  ],
+  "researchItems": [
+    {
+      "id": "res-001",
+      "title": "Meta 맞춤타겟 정책 확인",
+      "status": "완료",
+      "source": "Meta Help"
+    },
+    {
+      "id": "res-002",
+      "title": "유튜브 구독자 직접 타겟 불가 근거 정리",
+      "status": "완료",
+      "source": "Google/Meta"
+    },
+    {
+      "id": "res-003",
+      "title": "리드마그넷 전환율 벤치마크",
+      "status": "대기",
+      "source": "Web"
+    },
+    {
+      "id": "res-004",
+      "title": "초보셀러 광고 소재 후킹 문구",
+      "status": "진행중",
+      "source": "내부"
+    },
+    {
+      "id": "res-005",
+      "title": "유사타겟 1~3% 테스트 기준",
+      "status": "대기",
+      "source": "Meta Ads"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast-001",
+      "name": "무료 체크리스트 PDF",
+      "type": "PDF",
+      "status": "기획중"
+    },
+    {
+      "id": "ast-002",
+      "name": "랜딩페이지 히어로 이미지",
+      "type": "Image",
+      "status": "필요"
+    },
+    {
+      "id": "ast-003",
+      "name": "메타 광고 카드뉴스 3종",
+      "type": "Creative",
+      "status": "필요"
+    },
+    {
+      "id": "ast-004",
+      "name": "구매자료 ZIP 안내 이미지",
+      "type": "Image",
+      "status": "보유"
+    },
+    {
+      "id": "ast-005",
+      "name": "구매 후 실행순서 가이드",
+      "type": "Doc",
+      "status": "보유"
+    }
+  ],
+  "settings": {
+    "storageKey": "ebrainOS.dashboard.v1",
+    "northStar": "유튜브 구독자를 직접 타겟팅하려 하지 말고, 랜딩/리드/픽셀 데이터로 메타 리타겟팅을 만든다.",
+    "kpiTargets": {
+      "scroll50": 40,
+      "atc": 3,
+      "checkout": 1.5,
+      "maxCpa": 35000
+    },
+    "checklist": [
+      {
+        "id": "chk-001",
+        "text": "유튜브 설명란/고정댓글에 무료 자료 CTA 삽입",
+        "done": true
+      },
+      {
+        "id": "chk-002",
+        "text": "랜딩페이지에 Meta Pixel PageView/Lead 설치",
+        "done": false
+      },
+      {
+        "id": "chk-003",
+        "text": "자료 신청 폼에 광고 활용 동의 문구 포함",
+        "done": false
+      },
+      {
+        "id": "chk-004",
+        "text": "방문자 30일/자료신청자 180일 맞춤타겟 생성",
+        "done": false
+      },
+      {
+        "id": "chk-005",
+        "text": "구매자 제외 타겟 생성",
+        "done": false
+      },
+      {
+        "id": "chk-006",
+        "text": "자료신청자·구매자 기반 유사타겟 1~3% 생성",
+        "done": false
+      },
+      {
+        "id": "chk-007",
+        "text": "문제공감형/증거형/안심형 광고 소재 3종 테스트",
+        "done": false
+      },
+      {
+        "id": "chk-008",
+        "text": "3일 KPI 기준: scroll50≥40%, ATC≥3%, checkout≥1.5%, CPA≤35k/49k 확인",
+        "done": false
+      }
+    ]
+  },
+  "meetings": [],
+  "ideaItems": [
+    {
+      "id": "idea-001",
+      "title": "초보셀러용 상세페이지 체크리스트 PDF",
+      "type": "상품",
+      "status": "실행후보",
+      "priority": "높음",
+      "target": "AI커머스 브레인 구매 전환",
+      "nextAction": "체크리스트 목차 7개 먼저 작성",
+      "memo": "문제 인식 → 상품 이해 → 구매 전 점검 흐름으로 짧게 구성",
+      "impact": "5",
+      "ease": "4",
+      "revenue": "5",
+      "urgency": "4",
+      "score": 9,
+      "createdAt": "2026-06-02"
+    },
+    {
+      "id": "idea-002",
+      "title": "AI 질문 환영 오픈채팅 상단 고정 공지",
+      "type": "커뮤니티",
+      "status": "검토",
+      "priority": "중간",
+      "target": "오픈채팅 질문 활성화",
+      "nextAction": "복붙형 공지 3안 만들기",
+      "memo": "상단에 질문 환영과 구매 CTA를 같이 배치",
+      "impact": "4",
+      "ease": "5",
+      "revenue": "3",
+      "urgency": "3",
+      "score": 8,
+      "createdAt": "2026-06-02"
+    },
+    {
+      "id": "idea-003",
+      "title": "구매자료 실행순서 10분 영상",
+      "type": "강의",
+      "status": "검토",
+      "priority": "중간",
+      "target": "구매 후 이탈 방지",
+      "nextAction": "영상 스크립트 뼈대 작성",
+      "memo": "PDF/VOD/GPTs/커뮤니티 순서로 초보자가 헤매지 않게 안내",
+      "impact": "4",
+      "ease": "3",
+      "revenue": "4",
+      "urgency": "4",
+      "score": 8,
+      "createdAt": "2026-06-02"
+    }
+  ],
+  "profileHistory": [
+    {
+      "id": "career-demo-lecture-operator",
+      "title": "샘플 강의 운영 이력",
+      "versionDate": "2026-06-01",
+      "status": "대표이력",
+      "purpose": "강의/교육",
+      "docLink": "https://example.com/profile-sample",
+      "sentTo": "샘플 교육기관",
+      "sentDate": "",
+      "sentHistory": "샘플 프로필 문서 기반 정리",
+      "headline": "AI 활용 교육 운영자",
+      "summary": "강의 기획, 자료 준비, 수강생 안내, 후속 콘텐츠 발행까지 연결하는 샘플 이력입니다.",
+      "links": "대표 링크: https://example.com",
+      "changeMemo": "공개 데모용 가상 데이터입니다.",
+      "memo": "실제 개인 이력이나 기관 정보가 아닌 샘플입니다."
+    },
+    {
+      "id": "career-demo-content-operator",
+      "title": "샘플 콘텐츠 채널 운영",
+      "versionDate": "2026-06-01",
+      "status": "반영중",
+      "purpose": "운영채널/콘텐츠",
+      "docLink": "https://example.com/content-sample",
+      "sentTo": "샘플 브랜드",
+      "sentDate": "",
+      "sentHistory": "공개 데모용 콘텐츠 운영 이력",
+      "headline": "콘텐츠 운영 담당자",
+      "summary": "유튜브, 블로그, 커뮤니티, SNS 콘텐츠를 일정과 반응 중심으로 관리하는 샘플 이력입니다.",
+      "links": "YouTube: https://example.com/youtube\nBlog: https://example.com/blog\nCommunity: https://example.com/community\nSNS: https://example.com/sns",
+      "changeMemo": "공개 데모용 가상 데이터입니다.",
+      "memo": "실제 개인 기록이 아닌 샘플 데이터입니다."
+    }
+  ]
+}
